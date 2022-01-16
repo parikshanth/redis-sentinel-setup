@@ -4,7 +4,9 @@ Setup and test a redis sentinel based high availability solution
 This repo will help you create a 3 node Redis High availability solution using docker containers and use redis sentinel as the failover solution.
 
 The containers are built on the very convenient bitnami redis and redis sentinel images
+
 https://github.com/bitnami/bitnami-docker-redis
+
 https://github.com/bitnami/bitnami-docker-redis-sentinel
 
 this method uses 3 different VM's on which redis running as a container, the sentinels are started as another container on these nodes.
